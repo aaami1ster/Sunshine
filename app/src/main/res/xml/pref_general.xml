@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <EditTextPreference
+        android:title="City Name"
+        android:key="@string/city_name_key"
+        android:defaultValue="@string/default_city_name"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+    <ListPreference
+        android:title="Temperature Units"
+        android:key="@string/temp_unit_key"
+        android:entries="@array/tempUnit"
+        android:entryValues="@array/tempUnitValue"
+        />
+</PreferenceScreen>
